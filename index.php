@@ -195,7 +195,7 @@ while (true) {
             'message' => "BackUp in : " . date('Y/n/d h:i a'),
         ]);
         echo "File sent successfully!" . PHP_EOL;
-        unlink(date('Y-n-d-H-i') . '-backup.zip');
+        unlink($nameFile);
         delTree(__DIR__.'/backup');
         mkdir(__DIR__.'/backup');
     
