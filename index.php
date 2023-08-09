@@ -29,7 +29,7 @@ function recurseCopy(
         }
 
         while (($file = readdir($directory)) !== false) {
-            if ($file === '.' || $file === '..' || $file == 'www' || $file == 'bytesyria.com' || $file == 'yhyasyrian.com' || $file == 'gulfbar963.com') {
+            if ($file === '.' || $file === '..') {
                 continue;
             }
 
@@ -46,7 +46,7 @@ function recurseCopy(
     }
 
     while (($file = readdir($directory)) !== false) {
-        if ($file === '.' || $file === '..' || $file == 'www' || $file == 'bytesyria.com' || $file == 'yhyasyrian.com' || $file == 'gulfbar963.com') {
+        if ($file === '.' || $file === '..') {
             continue;
         }
 
