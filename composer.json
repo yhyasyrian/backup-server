@@ -1,6 +1,6 @@
 {
     "require": {
-        "yhyasyrian/sydb": "v1.4.2.2",
+        "yhyasyrian/sydb": "v1.4.4",
         "danog/madelineproto": "^7.0"
     }
 }
