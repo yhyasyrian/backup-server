@@ -156,8 +156,8 @@ if (!is_dir(__DIR__.'/session')) {
 }
 $MadelineProto = new API('session/madeline', $settings);
 $MadelineProto->botLogin($Token);
-$MadelineProto->start();
 while (true) {
+    $MadelineProto->start();
     try {
         foreach ($database as $user => $databases) {
             // Loop for create backup database
